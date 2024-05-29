@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ff00;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.player-input {
+    margin-bottom: 20px;
+}
+
+.player-input input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.player-input button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.player-input button:hover {
+    background-color: #0056b3;
+}
+
+.bingo-card {
+    margin-bottom: 20px;
+}
+
+.bingo-card h3 {
+    margin-bottom: 10px;
+}
+
+.bingo-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bingo-card ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 30px;
+    margin: 3px;
+    background-color: #fff;
+}
+
+.bingo-card ul li.selected {
+    background-color: #b3ffb3;
+    border-color: #66cc66;
+}
+
+#start-game {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#start-game:hover {
+    background-color: #218838;
+}
